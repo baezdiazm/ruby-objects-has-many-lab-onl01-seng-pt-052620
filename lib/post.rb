@@ -12,7 +12,7 @@ class Post
   end
 
   def author_name
-    binding.pry
+    #binding.pry
     if self.author
       self.author.name
     else

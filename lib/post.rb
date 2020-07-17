@@ -8,7 +8,7 @@ class Post
     @title = title
     @@all << self
     @@post_count += 1
-    self.author = Author.name
+    #self.author = Author.name
   end
 
   def author_name
